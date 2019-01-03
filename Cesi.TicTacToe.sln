@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28307.106
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cesi.TicTacToe.WpfApp", "Cesi.TicTacToe.WpfApp\Cesi.TicTacToe.WpfApp.csproj", "{27218CE7-EE18-45E5-85CD-A85CD601B3BD}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cesi.TicTacToe.Models", "Cesi.TicTacToe.Models\Cesi.TicTacToe.Models.csproj", "{D5121F8A-550B-4095-9FFB-14F18CC13E56}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cesi.TicTacToe.UnitTests", "Cesi.TicTacToe.UnitTests\Cesi.TicTacToe.UnitTests.csproj", "{2D83E342-DBAB-4AE4-A83E-B8EB13FEF101}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{3C8076C5-669F-48AB-B9C6-9270123637C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cesi.TicTacToe.ServerApi", "Cesi.TicTacToe.ServerApi\Cesi.TicTacToe.ServerApi.csproj", "{12EAC2A0-A86C-44FD-AEEB-151EEFD485FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +37,16 @@ Global
 		{2D83E342-DBAB-4AE4-A83E-B8EB13FEF101}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D83E342-DBAB-4AE4-A83E-B8EB13FEF101}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D83E342-DBAB-4AE4-A83E-B8EB13FEF101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12EAC2A0-A86C-44FD-AEEB-151EEFD485FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12EAC2A0-A86C-44FD-AEEB-151EEFD485FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12EAC2A0-A86C-44FD-AEEB-151EEFD485FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12EAC2A0-A86C-44FD-AEEB-151EEFD485FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12EAC2A0-A86C-44FD-AEEB-151EEFD485FD} = {3C8076C5-669F-48AB-B9C6-9270123637C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC5F70AE-F5FA-40E5-BB6C-3BBFD0DE9B65}
